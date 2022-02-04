@@ -14,9 +14,10 @@ export const en: NavbarConfig = [
                 ]
             },
             {
-                text: 'Coding Styleguides',
+                text: 'Develop',
                 children: [
-                    '/guidelines/code/',
+                    '/guidelines/develop/main/',
+                    '/guidelines/develop/code/',
                 ]
             },
             {

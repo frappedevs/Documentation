@@ -6,7 +6,7 @@ editLink: false
 # Welcome
 ## Introduction
 
-Welcome to [docs.frappe.site](https://docs.frappe.site/), this website hosts all documentation regarding products from Frappé, such as [branding guidelines](./guidelines/brand/), [coding styleguide](./guidelines/code/), [verification manual](./guidelines/general/verify/), et cetera.
+Welcome to [docs.frappe.site](https://docs.frappe.site/), this website hosts all documentation regarding Frappé, such as [branding guidelines](./guidelines/brand/), [coding styleguides](./guidelines/develop/code/styleguides/), [verification manual](./guidelines/general/verify/), et cetera.
 
 Other documentation can be found in the sidebar (if you are using a mobile), or the navigation header.
 

@@ -1,6 +1,6 @@
 import { defineUserConfig } from '@vuepress/cli'
 import type { DefaultThemeOptions } from '@vuepress/theme-default'
-import { navbar } from './configs'
+import { navbar, sidebar } from './configs'
 
 export default defineUserConfig<DefaultThemeOptions>({
 	base: '/',
@@ -28,6 +28,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 		locales: {
 			'/': {
 				navbar: navbar.en,
+				sidebar: sidebar.en,
 				editLinkText: 'Edit this page on GitHub'
 			}
 		}
