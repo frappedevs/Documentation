@@ -15,7 +15,7 @@ This page contains a detailed walkthrough on verifying your account –– for t
 
 A Discord user must meet the requirements below before verifying:
 
-- Joined Discord at least 1 month ago
+- Joined Discord and Roblox at least 1 month ago
 - Have your phone number linked with Discord
 - Have a Roblox account
 - Above the age of 13

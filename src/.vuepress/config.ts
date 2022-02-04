@@ -24,6 +24,7 @@ export default defineUserConfig<DefaultThemeOptions>({
 		logo: '/images/logo.png',
 		logoDark: '/images/logo_dark.png',
 		docsRepo: 'frappedevs/docs',
+		docsDir: 'src/',
 		
 		locales: {
 			'/': {
