@@ -47,6 +47,23 @@ export default defineUserConfig<DefaultThemeOptions>({
 						children: ['/grp/guides/brand/', '/grp/guides/verify/']
 					},
 				]
+			},
+			{
+				text: 'Links',
+				children: [
+					{
+						text: 'Discord',
+						link: 'https://discord.gg/frappe'
+					},
+					{
+						text: 'Open Source Server',
+						link: 'https://discord.gg/JSHRQkrafN',
+					},
+					{
+						text: 'GitHub',
+						link: 'https://github.com/frappedevs',
+					},
+				]
 			}
 		]
 	},
