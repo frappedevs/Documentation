@@ -1,6 +1,5 @@
 import { defineUserConfig } from '@vuepress/cli'
 import type { DefaultThemeOptions } from '@vuepress/theme-default'
-import { navbar, sidebar } from './configs'
 
 export default defineUserConfig<DefaultThemeOptions>({
 	base: '/',
@@ -25,14 +24,31 @@ export default defineUserConfig<DefaultThemeOptions>({
 		logoDark: '/images/logo_dark.png',
 		docsRepo: 'frappedevs/docs',
 		docsDir: 'src/',
-		
-		locales: {
-			'/': {
-				navbar: navbar.en,
-				sidebar: sidebar.en,
-				editLinkText: 'Edit this page on GitHub'
+		sidebar: "auto",
+		navbar: [
+			{
+				text: 'Open Source',
+				children: [
+					{
+						text: 'Toolings',
+						children: ['/oss/tools/trackpack/'],
+					},
+					{
+						text: "Libraries",
+						children: ['/oss/libs/router/', '/oss/libs/kotera/']
+					}
+				]
+			},
+			{
+				text: 'Group',
+				children: [
+					{
+						text: 'Guides',
+						children: ['/grp/guides/brand/', '/grp/guides/verify/']
+					},
+				]
 			}
-		}
+		]
 	},
 	dest: 'public'
 })

@@ -1,3 +1,7 @@
+---
+title: Branding
+---
+
 # Branding Guidelines
 
 ::: warning Stub
